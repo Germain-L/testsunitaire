@@ -16,7 +16,7 @@ public class Exo6Application
 {
     public static void main(String[] args) {
         // Configuration du WebDriver
-        System.setProperty("webdriver.ch    rome.driver", "path/to/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
         WebDriver driver = new ChromeDriver();
 
         try {

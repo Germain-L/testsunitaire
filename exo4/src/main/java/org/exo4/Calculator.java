@@ -1,4 +1,4 @@
-package org.example;
+package org.exo4;
 
 public class Calculator {
 

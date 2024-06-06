@@ -27,6 +27,14 @@ public class Exo6Application
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.presenceOfElementLocated(By.name("q")));
 
+            // Accepter les cookies si le bouton est présent
+            try {
+                WebElement acceptButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Tout accepter']/..")));
+                acceptButton.click();
+            } catch (Exception e) {
+                System.out.println("Le bouton 'Tout accepter' n'a pas été trouvé.");
+            }
+
             // Effectuer une recherche pour "automatisation des tests logiciels"
             WebElement searchBox = driver.findElement(By.name("q"));
             searchBox.sendKeys("automatisation des tests logiciels");
@@ -54,6 +62,8 @@ public class Exo6Application
             WebElement firstResult = driver.findElement(By.cssSelector("#search .g"));
             assertNotNull("Le premier résultat de recherche n'est pas trouvé.", firstResult);
 
+            // Message indiquant que tout le test s'est bien passé
+            System.out.println("Le test s'est déroulé avec succès.");
         } finally {
             // Fermer le navigateur
             driver.quit();

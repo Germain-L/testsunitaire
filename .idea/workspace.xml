@@ -4,23 +4,142 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55830863-6a7e-44d5-b8fb-777f0021b43d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exo5/src/main/java/org/testunitaire/exo5/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exo5/src/main/java/org/testunitaire/exo5/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exo5/src/main/java/org/testunitaire/exo5/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exo5/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exo5/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exo5/src/test/java/org/testunitaire/exo5/TaskControllerIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="55830863-6a7e-44d5-b8fb-777f0021b43d" name="Changes" comment="exo7">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo5/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo5/results.jtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo5/testdb.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo5/testdb.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/css/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/css/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/css/legends.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/css/theme.blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/curvedLines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/customGraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/dashboard-commons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/graph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/hashtable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/jquery.numberformatter-1.2.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/pages/CustomsGraphs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/pages/OverTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/pages/ResponseTimes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/pages/Throughput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/content/pages/icon-apache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot-axislabels/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot-axislabels/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot-axislabels/jquery.flot.axislabels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot.tooltip/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot.tooltip/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot.tooltip/js/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot.tooltip/js/jquery.flot.tooltip.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/FAQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/NEWS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/PLUGINS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/flot.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/flot/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/extras.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_extras.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/jquery/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/jquery/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/metisMenu/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/metisMenu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/metisMenu/dist/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/bower_components/metisMenu/dist/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/dist/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/dist/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/less/sb-admin-2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/sbadmin2-1.0.7/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/report/statistics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exo7/testplan.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdb.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exo5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exo5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exo5/src/main/java/org/testunitaire/exo5/Exo5Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/exo5/src/main/java/org/testunitaire/exo5/TaskManagerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exo5/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exo5/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exo5/src/test/java/org/testunitaire/exo5/Exo5ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +156,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Germain-L"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Germain-L&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Germain-L/testsunitaire.git",
-    "accountId": "40be6525-aab3-4c53-828e-ebddff9f68ad"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Germain-L/testsunitaire.git&quot;,
+    &quot;accountId&quot;: &quot;40be6525-aab3-4c53-828e-ebddff9f68ad&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hVJBS0OhmEcjZAEWRAumeu4DHK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -67,6 +186,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.All in exo5.executor": "Run",
     "JUnit.TaskControllerIntegrationTest.executor": "Run",
     "Maven.Clean install.executor": "Run",
     "Maven.exo5 [clean].executor": "Run",
@@ -96,7 +216,21 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TaskControllerIntegrationTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\testsunitaire\exo7" />
+      <recent name="C:\projects\testsunitaire" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in exo5">
+    <configuration name="All in exo5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exo5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exo5" />
       <extension name="coverage">
@@ -152,22 +286,24 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in exo5" />
       <item itemvalue="JUnit.TaskControllerIntegrationTest" />
       <item itemvalue="Maven.Clean install" />
       <item itemvalue="Spring Boot.Run TaskManagerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TaskControllerIntegrationTest" />
+        <item itemvalue="JUnit.All in exo5" />
         <item itemvalue="Spring Boot.Run TaskManagerApplication" />
+        <item itemvalue="JUnit.TaskControllerIntegrationTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -179,11 +315,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717673175266</updated>
-      <workItem from="1717673176305" duration="2046000" />
+      <workItem from="1717673176305" duration="4403000" />
+      <workItem from="1719314810976" duration="296000" />
     </task>
+    <task id="LOCAL-00001" summary="add tests">
+      <option name="closed" value="true" />
+      <created>1717675247459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717675247459</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add tests" />
+    <MESSAGE value="exo7" />
+    <option name="LAST_COMMIT_MESSAGE" value="exo7" />
   </component>
 </project>

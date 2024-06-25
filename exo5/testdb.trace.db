@@ -1,0 +1,3 @@
+2024-06-06 13:59:19.571510+02:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TASK" already exists; SQL statement:
+CREATE TABLE task ( id BIGINT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, description VARCHAR(255) ) [42101-224]
